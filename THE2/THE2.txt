@@ -1,0 +1,14 @@
+In this take-home exam, you are going to implement a citizenship inquiry system. 
+States grant citizenship through various mechanisms (e.g., birth, marriage and 
+naturalization) with varying details. Your system will be only based on the applicant’s
+birth conditions. Write a Python program for only two countries, "USA" and "Switzerland",
+in which an applicant will answer a set of "yes"/"no" questions to find out if they are 
+granted citizenship or not.
+
+Sample Run:
+Please enter the country for citizenship inquiry: Switzerland
+Are the applicant's parents married? no
+Is unmarried mother a Swiss citizen? no
+Is unmarried father a Swiss citizen? yes
+Does unmarried father acknowledge paternity? yes
+The applicant is a Swiss citizen.
