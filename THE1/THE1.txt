@@ -1,0 +1,14 @@
+In this assignment, you are going to calculate the transmission delay of sending an 
+image over two communication channels with different bandwidths. The first communication
+channel is an old modem with 64 kilobits per second (Kbps), and the second is an ethernet 
+connection with 10 Megabits per second (Mbps). Once you determine the total number of bits 
+to be transmitted, you need to calculate the time to send the image over both channels and 
+print them in the appropriate format.
+
+Sample Run:
+Please enter the image width in pixels: 1280
+Please enter the image height in pixels: 720
+
+Tranmission delay of an 1280x720 image - (22118400 bits in total)
+Over 64 Kbps modem connection: 0 hour(s), 5 minute(s) and 45.6000 second(s)
+Over 10 Mbps ethernet connection: 0 hour(s), 0 minute(s) and 2.2118 second(s)
