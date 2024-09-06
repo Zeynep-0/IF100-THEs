@@ -1,0 +1,31 @@
+In this take-home exam, your task is to conduct a series of statistical analyses on a database
+containing historical records of book sales. The input will be a string of a predetermined format, 
+containing the book's title, author, publication year, and it's all-time sales number separated by
+commas (,). Each book entry is delimited by dollar signs ($).
+
+book_title1,author1,publication_year1,sales1$book_title2,author2,publication_year2,sales2$...
+
+Once you get the string, you will first perform two input checks.
+
+	a) Each book entry must consist of 4 elements (title, author, year, sales).
+	b) The database must not have duplicated items (based on book titles).
+
+If the provided string meets the specified input criteria, you will prompt the user with
+a menu asking for a statistical operation.
+
+1) Display an author's average book sales (there might be multiple record for a particular author)
+	2) Display the book with the highest sales 
+	3) Display the year that saw the greatest number of books published (not the total number of sales,
+     we focus on the number of distinct books). 
+
+Afterward, you'll receive the user's input for their choice and execute the corresponding operation.
+
+Sample Run:
+Please enter the book database: Catching Fire,Suzanne Collins,2009,21360269$The Hite Report,Shere Hite,1976,50699077$Angels & Demons,Dan Brown,2000,39434777$The Ginger Man,J. P. Donleavy,1955,50569511$The Lost Symbol,Dan Brown,2009,30319970$The Da Vinci Code,Dan Brown,2003,80269798$Mockingjay,Suzanne Collins,2010,20910660
+Please select an option:
+1) Display an author's average book sales
+2) Display the book with the highest sales
+3) Display the year that saw the greatest number of books published
+Please enter your choice: 1
+Please enter an author name: Dan Brown
+Avg. sales per book by Dan Brown is 50008181.67
