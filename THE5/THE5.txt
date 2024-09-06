@@ -1,0 +1,29 @@
+In this take-home exam, your assignment is based on a straightforward chess 
+problem. You'll be provided with a board layout containing just a bishop
+and a king. Your task is to determine whether the bishop can attack the 
+king or not. Moreover, your task includes pinpointing and displaying all the
+cells the bishop can potentially move on the board with a designated character.
+
+Sample Run:
+Enter the board layout: @,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@
+Missing pieces!
+Enter the board layout: B,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,@,@;@,@,@,@,@,@,K,@
+-----------------
+|B| | | | | | | |
+-----------------
+| |+| | | | | | |
+-----------------
+| | |+| | | | | |
+-----------------
+| | | |+| | | | |
+-----------------
+| | | | |+| | | |
+-----------------
+| | | | | |+| | |
+-----------------
+| | | | | | |+| |
+-----------------
+| | | | | | |K|+|
+-----------------
+The king is safe
+
