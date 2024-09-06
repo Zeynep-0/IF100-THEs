@@ -1,0 +1,22 @@
+In this take-home exam, given a movie database, your task is to identify the group
+of actors who appeared in a minimum of k (specified by the user as input) movies 
+within the provided year range that were produced in the specified country.
+
+Sample Run:
+Enter the starting year: 1995
+Enter the end year: 1998
+Enter the country: USA
+USA does not exist in the database!
+Enter the country: usa
+usa does not exist in the database!
+Enter the country: United states
+United states does not exist in the database!
+Enter the country: United States
+Enter the threshold value: 3
+The list of actors (alphabetically ordered) who played in at least 3 movies between 1995 and 1998
+1) Burt Reynolds (3 movies)
+2) Demi Moore (3 movies)
+3) Edward Norton (3 movies)
+4) Fairuza Balk (3 movies)
+5) Joe Don Baker (3 movies)
+6) Pierce Brosnan (5 movies)
