@@ -1,0 +1,18 @@
+For this take-home exam, you will write a Python program that will simulate
+a simple version of an authentication process, by taking the following four (4) 
+information as inputs and working on them: 
+●	Usernames, together with corresponding scrambled passwords of users, in a predetermined format
+●	Last modification date of the password until now, in a predetermined format
+●	Username
+●	Password
+
+By using the username and password given by the user (third and fourth inputs), 
+your program should check if the user's credentials match the credentials given before (first input). 
+
+Sample Run:
+Please enter usernames and passwords: coff33c4ke:cr0t4id@lgoff33c4ke;j0mesb0nd7:jredips?etaraK0mesb0nd7;hubblebubble:h.sneil@_etucubblebubble
+Please enter last modification information: 0year(s) 10month(s);2year(s) 5month(s);0year(s) 5month(s)
+Please enter the username: j0mesb0nd7
+Please enter the password: Karate?spider
+It has been more than 6 months since your last password update!
+Successful login
